@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>module-2 solution</title>
+	<style type="text/css">
+
+		*{
+			padding: 0;
+			margin: 0;
+			box-sizing: border-box;
+		}
+
+		h1{
+			text-align: center;
+			margin: 20px 0px 20px 0px;
+		}
+
+		section{
+			border: 1px solid black;
+			background-color: gray;
+			width: 30%;
+			margin-left: 30px;
+			float: left;
+			position: relative;
+		}
+		p{
+			padding: 30px;
+		}
+
+		
+
+		@media  (min-width: 992px){
+		#beef{
+			background-color: red;
+			position: absolute;
+			left: 361px;
+			padding: 1px;
+		}
+		#chicken{
+			background-color: yellow;
+			position: absolute;
+			left: 330px;
+			padding: 1px;
+		}
+		#mutton{
+			background-color: pink;
+			position: absolute;
+			left: 333px;
+			padding: 1px;
+		}
+	}
+
+	@media (min-width: 768px) and (max-width: 991px){
+		.section1{
+			position: relative;
+			width: 45%;
+			float: left;
+		}
+		#beef{
+			background-color: red;
+			position: absolute;
+			left: 396px;
+			padding: 1px;
+		}
+		.section2{
+			position: relative;
+			width: 45%;
+			float: left;
+		}
+		#chicken{
+			background-color: yellow;
+			position: absolute;
+			left: 364px;
+		}
+		.section3{
+			width: 93%;
+			margin-top: 20px;
+			position: relative;
+			clear: both;
+		}
+		#mutton{
+			background-color: pink;
+			position: absolute;
+			left: 840px;
+		}
+	}
+	@media (min-width: 767px){
+		.section1{
+			position: relative;
+			width: 94%;
+			margin-top: 20px
+		}
+		#beef{
+			background-color: red;
+			position: absolute;
+			left: 872px;
+			padding: 1px;
+		}
+		.section2{
+			position: relative;
+			width: 94%;
+			margin-top: 20px
+
+		}
+		#chicken{
+			background-color: yellow;
+			position: absolute;
+			left: 840px;
+		}
+		.section3{
+			width: 94%;
+			margin-top: 20px;
+			position: relative;
+		}
+		#mutton{
+			background-color: pink;
+			position: absolute;
+			left: 844px;
+		}
+	}
+		
+	</style>
+</head>
+<body>
+      <header>
+      	<h1>
+      		Our Menu
+      	</h1>
+      </header>
+
+      
+      	<section class="section1">
+      		<h2 id="beef">Beef</h2>
+      		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+      		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+      		proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+      	</section>
+
+      	<section class="section2">
+      		<h2 id="chicken">chicken</h2>
+      		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+      		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+      		proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+      	</section>
+
+      	<section class="section3">
+      		<h2 id="mutton">mutton</h2>
+      		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+      		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+      		proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+      	</section>
+      
+</body>
+</html>
